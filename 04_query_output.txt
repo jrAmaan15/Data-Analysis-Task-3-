@@ -1,0 +1,311 @@
+product_name              category_id  price  stock_quantity
+------------------------  -----------  -----  --------------
+Atomic Habits (Book)      3            399    200           
+Herbal Shampoo            6            399    0             
+Sapiens (Book)            3            499    150           
+Cotton T-Shirt            4            499    300           
+Resistance Bands          5            599    140           
+Face Moisturizer          6            649    110           
+Wireless Mouse            1            799    120           
+Non-stick Frying Pan      2            899    60            
+The Pragmatic Programmer  3            899    85            
+Yoga Mat                  5            999    90            
+customer_id  first_name  last_name  city       signup_date
+-----------  ----------  ---------  ---------  -----------
+15           Arjun       Nair       Chennai    2023-10-01 
+4            Sara        Khan       Hyderabad  2023-03-18 
+3            Rahul       Verma      Bengaluru  2023-03-05 
+2            Priya       Sharma     Mumbai     2023-02-20 
+1            Amaan       Ansari     Delhi      2023-01-15 
+product_name    stock_quantity
+--------------  --------------
+Blender         0             
+Herbal Shampoo  0             
+order_id  customer_id  order_date  status   
+--------  -----------  ----------  ---------
+25        2            2024-03-05  Completed
+24        12           2024-03-01  Completed
+23        10           2024-02-22  Completed
+21        7            2024-02-14  Completed
+20        6            2024-02-08  Completed
+19        5            2024-02-05  Completed
+18        1            2024-02-01  Completed
+17        14           2024-01-25  Completed
+2         1            2024-01-15  Completed
+15        12           2024-01-14  Completed
+14        11           2024-01-11  Completed
+13        3            2024-01-08  Completed
+12        2            2024-01-03  Completed
+product_name                 total_units_sold  total_revenue
+---------------------------  ----------------  -------------
+27" 4K Monitor               2                 43998        
+Noise Cancelling Headphones  2                 11998        
+Mechanical Keyboard          2                 6998         
+Adjustable Dumbbell Set      1                 6499         
+Men's Running Shoes          2                 4998         
+Yoga Mat                     5                 4995         
+Blender                      2                 4398         
+USB-C Hub                    3                 3897         
+Wireless Mouse               4                 3196         
+Ceramic Dinner Set           1                 2799         
+Non-stick Frying Pan         3                 2697         
+The Pragmatic Programmer     3                 2697         
+Face Moisturizer             4                 2596         
+Cotton T-Shirt               5                 2495         
+Women's Denim Jacket         1                 1999         
+Resistance Bands             3                 1797         
+Atomic Habits (Book)         4                 1596         
+Electric Kettle              1                 1499         
+Herbal Shampoo               2                 798          
+Sapiens (Book)               1                 499          
+customer_id  customer_name  num_orders  avg_order_value
+-----------  -------------  ----------  ---------------
+8            Aiko Tanaka    1           21999.0        
+12           Fatima Ali     2           14648.5        
+4            Sara Khan      1           3697.0         
+2            Priya Sharma   3           3398.0         
+10           Sofia Rossi    2           3248.5         
+1            Amaan Ansari   3           2964.0         
+11           Noah Müller    1           2596.0         
+14           Mia Brown      1           2495.0         
+5            John Smith     2           2148.5         
+3            Rahul Verma    1           1999.0         
+6            Emily Davis    1           1798.0         
+7            Wei Zhang      2           1797.5         
+category_name           orders_containing_category  units_sold  category_revenue
+----------------------  --------------------------  ----------  ----------------
+Electronics             8                           13          70087           
+Sports & Fitness        4                           9           13291           
+Home & Kitchen          5                           7           11393           
+Clothing                4                           8           9492            
+Books                   3                           8           4792            
+Beauty & Personal Care  2                           6           3394            
+order_month  status     num_orders
+-----------  ---------  ----------
+2023-11      Cancelled  1         
+2023-11      Completed  4         
+2023-12      Completed  3         
+2023-12      Pending    1         
+2023-12      Returned   1         
+2024-01      Cancelled  1         
+2024-01      Completed  6         
+2024-02      Completed  5         
+2024-02      Returned   1         
+2024-03      Completed  2         
+product_name                 num_reviews  avg_rating
+---------------------------  -----------  ----------
+Wireless Mouse               2            4.5       
+Atomic Habits (Book)         2            4.5       
+Noise Cancelling Headphones  2            3.5       
+order_id  customer_name  order_date  status   
+--------  -------------  ----------  ---------
+1         Amaan Ansari   2023-11-02  Completed
+3         Priya Sharma   2023-11-05  Completed
+4         Rahul Verma    2023-11-10  Cancelled
+5         Sara Khan      2023-11-12  Completed
+6         John Smith     2023-11-20  Completed
+7         Emily Davis    2023-12-01  Returned 
+8         Wei Zhang      2023-12-05  Completed
+9         Aiko Tanaka    2023-12-10  Completed
+10        Liam O'Brien   2023-12-15  Pending  
+11        Sofia Rossi    2023-12-18  Completed
+12        Priya Sharma   2024-01-03  Completed
+13        Rahul Verma    2024-01-08  Completed
+14        Noah Müller    2024-01-11  Completed
+15        Fatima Ali     2024-01-14  Completed
+2         Amaan Ansari   2024-01-15  Completed
+16        Carlos Garcia  2024-01-20  Cancelled
+17        Mia Brown      2024-01-25  Completed
+18        Amaan Ansari   2024-02-01  Completed
+19        John Smith     2024-02-05  Completed
+20        Emily Davis    2024-02-08  Completed
+21        Wei Zhang      2024-02-14  Completed
+22        Liam O'Brien   2024-02-19  Returned 
+23        Sofia Rossi    2024-02-22  Completed
+24        Fatima Ali     2024-03-01  Completed
+25        Priya Sharma   2024-03-05  Completed
+customer_id  customer_name  order_id  order_date  status   
+-----------  -------------  --------  ----------  ---------
+1            Amaan Ansari   1         2023-11-02  Completed
+1            Amaan Ansari   2         2024-01-15  Completed
+1            Amaan Ansari   18        2024-02-01  Completed
+2            Priya Sharma   3         2023-11-05  Completed
+2            Priya Sharma   12        2024-01-03  Completed
+2            Priya Sharma   25        2024-03-05  Completed
+3            Rahul Verma    4         2023-11-10  Cancelled
+3            Rahul Verma    13        2024-01-08  Completed
+4            Sara Khan      5         2023-11-12  Completed
+5            John Smith     6         2023-11-20  Completed
+5            John Smith     19        2024-02-05  Completed
+6            Emily Davis    7         2023-12-01  Returned 
+6            Emily Davis    20        2024-02-08  Completed
+7            Wei Zhang      8         2023-12-05  Completed
+7            Wei Zhang      21        2024-02-14  Completed
+8            Aiko Tanaka    9         2023-12-10  Completed
+9            Liam O'Brien   10        2023-12-15  Pending  
+9            Liam O'Brien   22        2024-02-19  Returned 
+10           Sofia Rossi    11        2023-12-18  Completed
+10           Sofia Rossi    23        2024-02-22  Completed
+11           Noah Müller    14        2024-01-11  Completed
+12           Fatima Ali     15        2024-01-14  Completed
+12           Fatima Ali     24        2024-03-01  Completed
+13           Carlos Garcia  16        2024-01-20  Cancelled
+14           Mia Brown      17        2024-01-25  Completed
+15           Arjun Nair                                    
+customer_id  customer_name  email                 
+-----------  -------------  ----------------------
+15           Arjun Nair     arjun.nair@example.com
+employee_id  full_name     department        order_id  order_date
+-----------  ------------  ----------------  --------  ----------
+1            Neha Kapoor   Sales             1         2023-11-02
+1            Neha Kapoor   Sales             5         2023-11-12
+1            Neha Kapoor   Sales             12        2024-01-03
+1            Neha Kapoor   Sales             20        2024-02-08
+2            David Lee     Sales             3         2023-11-05
+2            David Lee     Sales             6         2023-11-20
+2            David Lee     Sales             14        2024-01-11
+2            David Lee     Sales             22        2024-02-19
+3            Grace Kim     Customer Support  8         2023-12-05
+3            Grace Kim     Customer Support  16        2024-01-20
+3            Grace Kim     Customer Support  24        2024-03-01
+4            Tom Richards  Sales             10        2023-12-15
+4            Tom Richards  Sales             18        2024-02-01
+order_id  customer_name  product_name                 category_name           quantity  unit_price  line_total  order_date  status   
+--------  -------------  ---------------------------  ----------------------  --------  ----------  ----------  ----------  ---------
+1         Amaan Ansari   Wireless Mouse               Electronics             1         799         799         2023-11-02  Completed
+1         Amaan Ansari   USB-C Hub                    Electronics             2         1299        2598        2023-11-02  Completed
+2         Amaan Ansari   Atomic Habits (Book)         Books                   3         399         1197        2024-01-15  Completed
+3         Priya Sharma   Noise Cancelling Headphones  Electronics             1         5999        5999        2023-11-05  Completed
+4         Rahul Verma    Non-stick Frying Pan         Home & Kitchen          1         899         899         2023-11-10  Cancelled
+5         Sara Khan      Men's Running Shoes          Clothing                1         2499        2499        2023-11-12  Completed
+5         Sara Khan      Resistance Bands             Sports & Fitness        2         599         1198        2023-11-12  Completed
+6         John Smith     Mechanical Keyboard          Electronics             1         3499        3499        2023-11-20  Completed
+7         Emily Davis    Blender                      Home & Kitchen          1         2199        2199        2023-12-01  Returned 
+8         Wei Zhang      The Pragmatic Programmer     Books                   2         899         1798        2023-12-05  Completed
+8         Wei Zhang      Sapiens (Book)               Books                   1         499         499         2023-12-05  Completed
+9         Aiko Tanaka    27" 4K Monitor               Electronics             1         21999       21999       2023-12-10  Completed
+10        Liam O'Brien   Yoga Mat                     Sports & Fitness        3         999         2997        2023-12-15  Pending  
+11        Sofia Rossi    Electric Kettle              Home & Kitchen          1         1499        1499        2023-12-18  Completed
+11        Sofia Rossi    Ceramic Dinner Set           Home & Kitchen          1         2799        2799        2023-12-18  Completed
+12        Priya Sharma   Wireless Mouse               Electronics             2         799         1598        2024-01-03  Completed
+13        Rahul Verma    Women's Denim Jacket         Clothing                1         1999        1999        2024-01-08  Completed
+14        Noah Müller    Face Moisturizer             Beauty & Personal Care  4         649         2596        2024-01-11  Completed
+15        Fatima Ali     Noise Cancelling Headphones  Electronics             1         5999        5999        2024-01-14  Completed
+15        Fatima Ali     USB-C Hub                    Electronics             1         1299        1299        2024-01-14  Completed
+16        Carlos Garcia  Adjustable Dumbbell Set      Sports & Fitness        1         6499        6499        2024-01-20  Cancelled
+17        Mia Brown      Cotton T-Shirt               Clothing                5         499         2495        2024-01-25  Completed
+18        Amaan Ansari   Mechanical Keyboard          Electronics             1         3499        3499        2024-02-01  Completed
+18        Amaan Ansari   Wireless Mouse               Electronics             1         799         799         2024-02-01  Completed
+19        John Smith     Herbal Shampoo               Beauty & Personal Care  2         399         798         2024-02-05  Completed
+20        Emily Davis    Non-stick Frying Pan         Home & Kitchen          2         899         1798        2024-02-08  Completed
+21        Wei Zhang      Atomic Habits (Book)         Books                   1         399         399         2024-02-14  Completed
+21        Wei Zhang      The Pragmatic Programmer     Books                   1         899         899         2024-02-14  Completed
+22        Liam O'Brien   Men's Running Shoes          Clothing                1         2499        2499        2024-02-19  Returned 
+23        Sofia Rossi    Blender                      Home & Kitchen          1         2199        2199        2024-02-22  Completed
+24        Fatima Ali     27" 4K Monitor               Electronics             1         21999       21999       2024-03-01  Completed
+25        Priya Sharma   Yoga Mat                     Sports & Fitness        2         999         1998        2024-03-05  Completed
+25        Priya Sharma   Resistance Bands             Sports & Fitness        1         599         599         2024-03-05  Completed
+product_name                 price
+---------------------------  -----
+27" 4K Monitor               21999
+Adjustable Dumbbell Set      6499 
+Noise Cancelling Headphones  5999 
+Mechanical Keyboard          3499 
+customer_name  total_spent
+-------------  -----------
+Fatima Ali     29297      
+Aiko Tanaka    21999      
+Priya Sharma   10194      
+Amaan Ansari   8892       
+Sofia Rossi    6497       
+customer_id  customer_name
+-----------  -------------
+1            Amaan Ansari 
+2            Priya Sharma 
+5            John Smith   
+8            Aiko Tanaka  
+12           Fatima Ali   
+product_name              category_name           product_revenue
+------------------------  ----------------------  ---------------
+27" 4K Monitor            Electronics             43998          
+Adjustable Dumbbell Set   Sports & Fitness        6499           
+Men's Running Shoes       Clothing                4998           
+Yoga Mat                  Sports & Fitness        4995           
+Blender                   Home & Kitchen          4398           
+The Pragmatic Programmer  Books                   2697           
+Face Moisturizer          Beauty & Personal Care  2596           
+order_id  customer_id  customer_name  order_date  status     order_total
+--------  -----------  -------------  ----------  ---------  -----------
+9         8            Aiko Tanaka    2023-12-10  Completed  21999      
+24        12           Fatima Ali     2024-03-01  Completed  21999      
+15        12           Fatima Ali     2024-01-14  Completed  7298       
+16        13           Carlos Garcia  2024-01-20  Cancelled  6499       
+3         2            Priya Sharma   2023-11-05  Completed  5999       
+11        10           Sofia Rossi    2023-12-18  Completed  4298       
+18        1            Amaan Ansari   2024-02-01  Completed  4298       
+5         4            Sara Khan      2023-11-12  Completed  3697       
+6         5            John Smith     2023-11-20  Completed  3499       
+1         1            Amaan Ansari   2023-11-02  Completed  3397       
+10        9            Liam O'Brien   2023-12-15  Pending    2997       
+25        2            Priya Sharma   2024-03-05  Completed  2597       
+14        11           Noah Müller    2024-01-11  Completed  2596       
+22        9            Liam O'Brien   2024-02-19  Returned   2499       
+17        14           Mia Brown      2024-01-25  Completed  2495       
+8         7            Wei Zhang      2023-12-05  Completed  2297       
+7         6            Emily Davis    2023-12-01  Returned   2199       
+23        10           Sofia Rossi    2024-02-22  Completed  2199       
+13        3            Rahul Verma    2024-01-08  Completed  1999       
+20        6            Emily Davis    2024-02-08  Completed  1798       
+12        2            Priya Sharma   2024-01-03  Completed  1598       
+21        7            Wei Zhang      2024-02-14  Completed  1298       
+2         1            Amaan Ansari   2024-01-15  Completed  1197       
+4         3            Rahul Verma    2023-11-10  Cancelled  899        
+19        5            John Smith     2024-02-05  Completed  798        
+month    num_orders  total_revenue
+-------  ----------  -------------
+2023-11  4           16592        
+2023-12  3           28594        
+2024-01  6           17183        
+2024-02  5           10391        
+2024-03  2           24596        
+customer_id  customer_name  total_orders  lifetime_value  avg_order_value
+-----------  -------------  ------------  --------------  ---------------
+12           Fatima Ali     2             29297           14648.5        
+8            Aiko Tanaka    1             21999           21999.0        
+2            Priya Sharma   3             10194           3398.0         
+1            Amaan Ansari   3             8892            2964.0         
+10           Sofia Rossi    2             6497            3248.5         
+5            John Smith     2             4297            2148.5         
+4            Sara Khan      1             3697            3697.0         
+7            Wei Zhang      2             3595            1797.5         
+11           Noah Müller    1             2596            2596.0         
+14           Mia Brown      1             2495            2495.0         
+3            Rahul Verma    1             1999            1999.0         
+6            Emily Davis    1             1798            1798.0         
+QUERY PLAN
+|--SEARCH c USING INTEGER PRIMARY KEY (rowid=?)
+`--SCAN o
+QUERY PLAN
+`--SCAN order_items
+QUERY PLAN
+`--SCAN orders
+QUERY PLAN
+|--SEARCH c USING INTEGER PRIMARY KEY (rowid=?)
+`--SEARCH o USING INDEX idx_orders_customer_id (customer_id=?)
+QUERY PLAN
+`--SEARCH order_items USING INDEX idx_order_items_product_id (product_id=?)
+QUERY PLAN
+`--SEARCH orders USING INDEX idx_orders_order_date (order_date>? AND order_date<?)
+name                        tbl_name     sql                                                               
+--------------------------  -----------  ------------------------------------------------------------------
+idx_customers_country       customers    CREATE INDEX idx_customers_country ON customers(country)          
+idx_order_items_order_id    order_items  CREATE INDEX idx_order_items_order_id   ON order_items(order_id)  
+idx_order_items_product_id  order_items  CREATE INDEX idx_order_items_product_id ON order_items(product_id)
+idx_orders_customer_id      orders       CREATE INDEX idx_orders_customer_id   ON orders(customer_id)      
+idx_orders_employee_id      orders       CREATE INDEX idx_orders_employee_id   ON orders(employee_id)      
+idx_orders_order_date       orders       CREATE INDEX idx_orders_order_date    ON orders(order_date)       
+idx_orders_status           orders       CREATE INDEX idx_orders_status        ON orders(status)           
+idx_products_category_id    products     CREATE INDEX idx_products_category_id ON products(category_id)    
+idx_products_price          products     CREATE INDEX idx_products_price       ON products(price)          
+idx_reviews_product_id      reviews      CREATE INDEX idx_reviews_product_id  ON reviews(product_id)       
+idx_reviews_customer_id     reviews      CREATE INDEX idx_reviews_customer_id ON reviews(customer_id)      
