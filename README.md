@@ -1,4 +1,3 @@
-# Data-Analysis-Task-3-
 # 🛒 SQL for Data Analysis — E-commerce Database
 
 A complete SQL data analysis project built on a realistic e-commerce schema. Covers filtering, aggregation, all join types, subqueries, views, and query optimization with indexes — using SQLite (portable to MySQL/PostgreSQL with minor tweaks).
